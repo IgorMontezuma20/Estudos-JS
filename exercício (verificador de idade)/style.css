@@ -1,0 +1,38 @@
+body{
+    background: rgb(44, 141, 252);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(1, 14, 27, 0.473);
+    
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.562));
+
+  
+}
+div#res{
+   padding: 8px;
+   text-align: center;
+}
