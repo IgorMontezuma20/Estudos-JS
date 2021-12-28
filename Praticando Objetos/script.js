@@ -6,7 +6,6 @@ let nave = {
     velAtual: 0
 }
 let menu
-let para = true;
 
 function acelerar(acelera){
     if(acelera > nave.velMaxima){
@@ -16,7 +15,7 @@ function acelerar(acelera){
     return velAtual
     }
 }
-function parar(para){
+function parar(){
     if(velAtual == 0){
         alert("A nave está parada, este procedimento não pode ser efetuado.")
     }else{
